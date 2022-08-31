@@ -15,8 +15,8 @@
     <% todos.forEach( el => { %>
             <li class='todoItem' data-id='<%=el._id%>'>
             
-                <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
-                <span> <%=el.title%> </span>   
+                <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.title %></span>
+                   
                 <img src="<%=el.image%>" alt=""poster image" width="128" ><img>
                 <span class='del fa fa-circle-xmark'></span>
                 
